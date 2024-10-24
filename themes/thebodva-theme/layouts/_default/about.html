@@ -1,0 +1,23 @@
+{{ define "main" }}
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+    {{ $path := "data/info.json" }}
+    {{ with .Resources.Get $path }}
+        {{ with . | transform.Unmarshal }}
+            {{ if .sections }}
+                {{ range .sections }}
+                    <div class="single-post">
+                        {{ .title }}:
+                        <ul>
+                            {{ range .sub }}
+                                <li><a href="{{ .value }}">{{ .title }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ else }}
+        {{ errorf "Unable to get page resource %q" $path }}
+    {{ end }}
+{{ end }}

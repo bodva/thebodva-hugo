@@ -1,0 +1,65 @@
+{
+  "sections": [
+    {
+      "title": "Contact",
+      "sub": [
+        {
+          "value": "mailto:dmitry@thebodva.com",
+          "title": "dmitry@thebodva.com"
+        }
+      ]
+    },
+    {
+      "title": "Social",
+      "sub": [
+        {
+          "title": "linkedin",
+          "value": "https://www.linkedin.com/in/bodva/"
+        },
+        {
+          "title": "facebook",
+          "value": "https://facebook.com/bodva"
+        },
+        {
+          "title": "twitter",
+          "value": "https://twitter.com/bodva"
+        }
+      ]
+    },
+    {
+      "title": "Open Source",
+      "sub": [
+        {
+          "title": "github",
+          "value": "https://github.com/bodva"
+        }
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "value": "mailto:dmitry@thebodva.com",
+      "title": "dmitry@thebodva.com"
+    }
+  ],
+  "social": [
+    {
+      "title": "linkedin",
+      "value": "https://www.linkedin.com/in/bodva/"
+    },
+    {
+      "title": "facebook",
+      "value": "https://facebook.com/bodva"
+    },
+    {
+      "title": "twitter",
+      "value": "https://twitter.com/bodva"
+    }
+  ],
+  "opensource": [
+    {
+      "title": "github",
+      "value": "https://github.com/bodva"
+    }
+  ]
+}

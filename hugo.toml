@@ -1,0 +1,5 @@
+baseURL = 'https://thebodva.com/'
+languageCode = 'en-us'
+title = 'Dmytro Boiko | BoDVa'
+theme = 'thebodva-theme'
+enableEmoji = true

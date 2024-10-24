@@ -1,0 +1,57 @@
+/*div {*/
+/*  border: 1px solid #000;*/
+/*}*/
+.header a{
+  text-decoration: none;
+  color: red;
+}
+.header a:hover{
+  text-decoration: underline;
+  color: red;
+}
+.title a{
+  text-decoration: none;
+  color: black;
+}
+.title a:visited{
+  /*text-decoration: none;*/
+  color: black;
+}
+.page {
+  width:100%;
+}
+.cnt {
+  width:60%;
+  position: absolute;
+  margin-left: 20%;
+  font-family: monospace;
+}
+.cnt .content p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.sidebar{
+  position: relative;
+  margin-left: 81%;
+}
+.header {
+  text-align:center;
+}
+.body {
+  text-align:left;
+}
+
+.single-post{
+
+}
+.separator{
+  margin-top:20px;
+}
+
+.footer {
+  text-align: left;
+}
+.footer .pager{
+  text-align: center;
+}

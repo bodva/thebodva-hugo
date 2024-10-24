@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="single-post">
+    <div class="title">
+        {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+        <div class="date" title="{{ $dateMachine }}">
+            <a href="{{ .RelPermalink }}">{{ .Date.Unix }}</a>
+        </div>
+    </div>
+    <div class="content">
+        {{ .Content }}
+    </div>
+    <div class="separator"></div>
+</div>
+{{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+{{ end }}

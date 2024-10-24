@@ -1,0 +1,31 @@
+{
+  "sections": [
+    {
+      "title": "Contact",
+      "sub": [
+        {
+          "value": "mailto:sample@mail.com",
+          "title": "sample@mail.com"
+        }
+      ]
+    },
+    {
+      "title": "Social",
+      "sub": [
+        {
+          "title": "linkedin",
+          "value": "https://www.linkedin.com/in/sample.person/"
+        }
+      ]
+    },
+    {
+      "title": "Open Source",
+      "sub": [
+        {
+          "title": "github",
+          "value": "https://github.com/some.one"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<div id="sidebar" class="sidebar">
+    {{ $image := resources.Get "images/watermark.png" }}
+    {{ with $image }}
+        <a href="/"><img src="{{ $image.RelPermalink }}" height="250px" alt="copyright watermark"></a>
+    {{ end }}
+</div>
